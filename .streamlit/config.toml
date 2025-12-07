@@ -1,0 +1,23 @@
+[theme]
+primaryColor = "#0066cc"
+backgroundColor = "#f0f2f6"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#262730"
+font = "sans serif"
+
+[theme.sidebar]
+backgroundColor = "#ffffff"
+widgetBackgroundColor = "#ffffff"
+widgetBorderColor = "#cccccc"
+skeletonBackgroundColor = "#e6e6e6"
+
+[server]
+maxUploadSize = 50
+enableCORS = false
+enableXsrfProtection = false  # ЗМІНЕНО: false замість true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = true
